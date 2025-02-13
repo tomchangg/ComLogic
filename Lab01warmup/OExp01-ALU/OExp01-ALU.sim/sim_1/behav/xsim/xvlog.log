@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/OExp01-ALU.srcs/sources_1/new/ALU_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/OExp01-ALU.srcs/sim_1/new/ALU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_tb

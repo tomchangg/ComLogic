@@ -1,0 +1,10 @@
+-makelib ies_lib/xil_defaultlib \
+  "../../../../Pipeline_CPU.gen/sources_1/ip/Seg7_Dev_0/DisplaySync.v" \
+  "../../../../Pipeline_CPU.gen/sources_1/ip/Seg7_Dev_0/MC_14495.v" \
+  "../../../../Pipeline_CPU.gen/sources_1/ip/Seg7_Dev_0/Seg7_Dev.v" \
+  "../../../../Pipeline_CPU.gen/sources_1/ip/Seg7_Dev_0/sim/Seg7_Dev_0.v" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  glbl.v
+-endlib
+

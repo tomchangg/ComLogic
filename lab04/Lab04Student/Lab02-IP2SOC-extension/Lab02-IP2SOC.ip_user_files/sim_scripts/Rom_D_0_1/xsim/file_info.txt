@@ -1,0 +1,2 @@
+Rom_D_0.v,verilog,xil_defaultlib,../../../../Lab02-IP2SOC.gen/sources_1/ip/Rom_D_0_1/sim/Rom_D_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

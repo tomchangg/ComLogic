@@ -1,0 +1,415 @@
+
+*** Running vivado
+    with args -log PipelineCPU.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source PipelineCPU.tcl -notrace
+
+
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source PipelineCPU.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab05-PipelineCPU'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab05-PipelineCPU' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab05-PipelineCPU/Lab05-PipelineCPU.runs/impl_1'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2023.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab05-PipelineCPU/Lab05-PipelineCPU.cache/ip 
+Command: link_design -top PipelineCPU -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 921.199 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 301 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1038.168 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+系统找不到指定的路径。
+10 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.675 . Memory (MB): peak = 1066.547 ; gain = 28.379
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1863dc98a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1621.969 ; gain = 555.422
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 1863dc98a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1990.969 ; gain = 0.000
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 1863dc98a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1990.969 ; gain = 0.000
+Phase 1 Initialization | Checksum: 1863dc98a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1990.969 ; gain = 0.000
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 1863dc98a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1990.969 ; gain = 0.000
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 1863dc98a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1990.969 ; gain = 0.000
+Phase 2 Timer Update And Timing Data Collection | Checksum: 1863dc98a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1990.969 ; gain = 0.000
+
+Phase 3 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[10]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[11]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[12]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[13]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[14]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[15]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[16]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[17]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[18]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[19]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[1]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[20]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[21]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[22]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[23]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[24]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[25]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[26]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[27]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[28]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[29]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[2]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[30]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[31]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[3]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[4]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[5]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[6]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[7]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[8]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[9]
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 1863dc98a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 1990.969 ; gain = 0.000
+Retarget | Checksum: 1863dc98a
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 4 Constant propagation
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[10]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[11]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[12]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[13]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[14]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[15]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[16]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[17]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[18]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[19]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[1]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[20]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[21]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[22]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[23]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[24]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[25]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[26]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[27]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[28]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[29]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[2]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[30]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[31]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[3]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[4]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[5]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[6]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[7]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[8]
+CRITICAL WARNING: [Opt 31-430] Found a FDCE that its data pin is undriven. Driver is required to prevent unexpected behavior:Ex_reg_Mem/PC_out_EXMem_reg[9]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 13d734edb
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 1990.969 ; gain = 0.000
+Constant propagation | Checksum: 13d734edb
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 146de907a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.095 . Memory (MB): peak = 1990.969 ; gain = 0.000
+Sweep | Checksum: 146de907a
+INFO: [Opt 31-389] Phase Sweep created 65 cells and removed 35 cells
+
+Phase 6 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG clk_IBUF_BUFG_inst to drive 1542 load(s) on clock net clk_IBUF_BUFG
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+Phase 6 BUFG optimization | Checksum: 19bfec55a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.140 . Memory (MB): peak = 1990.969 ; gain = 0.000
+BUFG optimization | Checksum: 19bfec55a
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 19bfec55a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.142 . Memory (MB): peak = 1990.969 ; gain = 0.000
+Shift Register Optimization | Checksum: 19bfec55a
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 19bfec55a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.146 . Memory (MB): peak = 1990.969 ; gain = 0.000
+Post Processing Netlist | Checksum: 19bfec55a
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 192a968e5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.200 . Memory (MB): peak = 1990.969 ; gain = 0.000
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1990.969 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 192a968e5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.202 . Memory (MB): peak = 1990.969 ; gain = 0.000
+Phase 9 Finalization | Checksum: 192a968e5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.203 . Memory (MB): peak = 1990.969 ; gain = 0.000
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |              65  |              35  |                                              0  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 192a968e5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.205 . Memory (MB): peak = 1990.969 ; gain = 0.000
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1990.969 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 192a968e5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1990.969 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 192a968e5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1990.969 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1990.969 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 192a968e5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1990.969 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+30 Infos, 2 Warnings, 62 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1990.969 ; gain = 952.801
+INFO: [runtcl-4] Executing : report_drc -file PipelineCPU_drc_opted.rpt -pb PipelineCPU_drc_opted.pb -rpx PipelineCPU_drc_opted.rpx
+Command: report_drc -file PipelineCPU_drc_opted.rpt -pb PipelineCPU_drc_opted.pb -rpx PipelineCPU_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab05-PipelineCPU/Lab05-PipelineCPU.runs/impl_1/PipelineCPU_drc_opted.rpt.
+report_drc completed successfully
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1990.969 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab05-PipelineCPU/Lab05-PipelineCPU.runs/impl_1/PipelineCPU_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 31 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1990.969 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: fb3cf6ac
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1990.969 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1990.969 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-415] IO Placement failed due to overutilization. This design contains 354 I/O ports
+ while the target  device: 7a100t package: csg324, contains only 210 available user I/O. The target device has 210 usable I/O pins of which 0 are already occupied by user-locked I/Os.
+ To rectify this issue:
+ 1. Ensure you are targeting the correct device and package.  Select a larger device or different package if necessary.
+ 2. Check the top-level ports of the design to ensure the correct number of ports are specified.
+ 3. Consider design changes to reduce the number of I/Os necessary.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+ERROR: [Place 30-68] Instance Addr_out_OBUF[0]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[10]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[11]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[12]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[13]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[14]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[15]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[16]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[17]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[18]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[19]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[1]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[20]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[21]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[22]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[23]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[24]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[25]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[26]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[27]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[28]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[29]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[2]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[30]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[31]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[3]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[4]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[5]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[6]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[7]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[8]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Addr_out_OBUF[9]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[0]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[10]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[11]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[12]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[13]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[14]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[15]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[16]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[17]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[18]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[19]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[1]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[20]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[21]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[22]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[23]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[24]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[25]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[26]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[27]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[28]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[29]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[2]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[30]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[31]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[3]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[4]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[5]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[6]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[7]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[8]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_in_IBUF[9]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[0]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[10]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[11]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[12]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[13]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[14]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[15]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[16]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[17]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[18]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[19]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[1]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[20]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[21]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[22]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[23]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[24]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[25]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[26]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[27]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[28]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[29]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[2]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[30]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[31]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[3]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[4]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[5]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[6]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[7]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[8]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_OBUF[9]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_WB_OBUF[0]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_WB_OBUF[10]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_WB_OBUF[11]_inst (OBUF) is not placed
+ERROR: [Place 30-68] Instance Data_out_WB_OBUF[12]_inst (OBUF) is not placed
+INFO: [Common 17-14] Message 'Place 30-68' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1cd42207
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.263 . Memory (MB): peak = 1990.969 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1cd42207
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.264 . Memory (MB): peak = 1990.969 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 1cd42207
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.265 . Memory (MB): peak = 1990.969 ; gain = 0.000
+46 Infos, 2 Warnings, 62 Critical Warnings and 103 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 27 09:51:44 2024...

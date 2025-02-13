@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Dec 20 15:43:45 2024
+# Process ID: 24168
+# Current directory: D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab02-IP2SOC-pipeline-stall/Lab02-IP2SOC.runs/synth_1
+# Command line: vivado.exe -log CSSTE.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CSSTE.tcl
+# Log file: D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab02-IP2SOC-pipeline-stall/Lab02-IP2SOC.runs/synth_1/CSSTE.vds
+# Journal file: D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab02-IP2SOC-pipeline-stall/Lab02-IP2SOC.runs/synth_1\vivado.jou
+# Running On: TomChang, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 34070 MB
+#-----------------------------------------------------------
+source CSSTE.tcl -notrace

@@ -1,0 +1,44 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.gen/sources_1/ip/RAM/sim/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.gen/sources_1/ip/Rom_D_0/sim/Rom_D_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rom_D_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/EX/ALU_more.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_more
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/CPU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Ex_reg_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ex_reg_Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/ID_reg_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_reg_Ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/IF_reg_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_reg_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/ID/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/IF/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/WB/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Mem_reg_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mem_reg_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/PipelineCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PipelineCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_Ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_Ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/IF/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/ID/SCPU_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl_more
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/IF/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/ID/regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sim_1/new/CPUtest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPUtest

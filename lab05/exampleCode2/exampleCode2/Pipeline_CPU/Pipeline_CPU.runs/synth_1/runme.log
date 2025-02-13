@@ -1,0 +1,414 @@
+
+*** Running vivado
+    with args -log CSSTE_Pipe.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source CSSTE_Pipe.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source CSSTE_Pipe.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/CO/Pipeline_CPU/ip_TA/Seg7_Dev'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/MyCS/Xlinx/Vivado/2021.1/data/ip'.
+Command: synth_design -top CSSTE_Pipe -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20776
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1118.902 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'CSSTE_Pipe' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/CSSTE_Pipe.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Pipeline_CPU' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_CPU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'stall' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/stall.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'stall' (1#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/stall.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Pipeline_IF' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_IF.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX2T1_32' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/new/MUX2T1_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX2T1_32' (2#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/new/MUX2T1_32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'REG32' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/new/REG32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REG32' (3#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/new/REG32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'add_32' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/add_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'add_32' (4#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/add_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Pipeline_IF' (5#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_IF.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IF_reg_ID' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/IF_reg_ID.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IF_reg_ID' (6#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/IF_reg_ID.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Pipeline_ID' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_ID.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Regs' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/new/Regs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Regs' (7#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/new/Regs.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ImmGen' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/new/ImmGen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ImmGen' (8#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/new/ImmGen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SCPU_ctrl' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/new/SCPU_ctrl.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SCPU_ctrl' (9#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/new/SCPU_ctrl.v:23]
+WARNING: [Synth 8-689] width (2) of port connection 'Jump' does not match port width (1) of module 'SCPU_ctrl' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_ID.v:141]
+WARNING: [Synth 8-7071] port 'MIO_ready' of module 'SCPU_ctrl' is unconnected for instance 'ctrl_0' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_ID.v:134]
+WARNING: [Synth 8-7071] port 'CPU_MIO' of module 'SCPU_ctrl' is unconnected for instance 'ctrl_0' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_ID.v:134]
+WARNING: [Synth 8-7023] instance 'ctrl_0' of module 'SCPU_ctrl' has 16 connections declared, but only 14 given [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_ID.v:134]
+INFO: [Synth 8-6155] done synthesizing module 'Pipeline_ID' (10#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_ID.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'Jump_ID' does not match port width (2) of module 'Pipeline_ID' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_CPU.v:179]
+INFO: [Synth 8-6157] synthesizing module 'ID_reg_Ex' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/ID_reg_Ex.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ID_reg_Ex' (11#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/ID_reg_Ex.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Pipeline_Ex' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_Ex.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/ipshared/ALU_func.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (12#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/ipshared/ALU_func.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Pipeline_Ex' (13#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_Ex.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Ex_reg_Mem' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Ex_reg_Mem.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Ex_reg_Mem' (14#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Ex_reg_Mem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Pipeline_Mem' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_Mem.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Pipeline_Mem' (15#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_Mem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mem_reg_WB' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Mem_reg_WB.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Mem_reg_WB' (16#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Mem_reg_WB.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Pipeline_WB' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_WB.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX4T1_32' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/new/MUX4T1_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX4T1_32' (17#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/new/MUX4T1_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Pipeline_WB' (18#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_WB.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Pipeline_CPU' (19#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/Pipeline_CPU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ROM_D_0' [C:/CO/Pipeline_CPU/Pipeline_CPU.runs/synth_1/.Xil/Vivado-24932-WYJ-22/realtime/ROM_D_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ROM_D_0' (20#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.runs/synth_1/.Xil/Vivado-24932-WYJ-22/realtime/ROM_D_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'RAM_B' [C:/CO/Pipeline_CPU/Pipeline_CPU.runs/synth_1/.Xil/Vivado-24932-WYJ-22/realtime/RAM_B_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RAM_B' (21#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.runs/synth_1/.Xil/Vivado-24932-WYJ-22/realtime/RAM_B_stub.v:6]
+WARNING: [Synth 8-689] width (32) of port connection 'wea' does not match port width (1) of module 'RAM_B' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/CSSTE_Pipe.v:147]
+INFO: [Synth 8-6157] synthesizing module 'MIO_BUS' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/MIO_BUS.v:15]
+WARNING: [Synth 8-689] width (32) of port connection 'data_ram_we' does not match port width (1) of module 'MIO_BUS_bbox_0' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/CSSTE_Pipe.v:164]
+INFO: [Synth 8-6157] synthesizing module 'Multi_8CH32' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/Multi_8CH32.v:15]
+INFO: [Synth 8-6157] synthesizing module 'Seg7_Dev_0' [C:/CO/Pipeline_CPU/Pipeline_CPU.runs/synth_1/.Xil/Vivado-24932-WYJ-22/realtime/Seg7_Dev_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg7_Dev_0' (22#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.runs/synth_1/.Xil/Vivado-24932-WYJ-22/realtime/Seg7_Dev_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'SPIO' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/SPIO.v:15]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/clk_div.v:15]
+INFO: [Synth 8-6157] synthesizing module 'SAnti_jitter' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/SAnti_jitter.v:15]
+WARNING: [Synth 8-7071] port 'Key_x' of module 'SAnti_jitter' is unconnected for instance 'U9' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/CSSTE_Pipe.v:222]
+WARNING: [Synth 8-7071] port 'Key_out' of module 'SAnti_jitter' is unconnected for instance 'U9' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/CSSTE_Pipe.v:222]
+WARNING: [Synth 8-7071] port 'Key_ready' of module 'SAnti_jitter' is unconnected for instance 'U9' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/CSSTE_Pipe.v:222]
+WARNING: [Synth 8-7071] port 'pulse_out' of module 'SAnti_jitter' is unconnected for instance 'U9' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/CSSTE_Pipe.v:222]
+WARNING: [Synth 8-7071] port 'CR' of module 'SAnti_jitter' is unconnected for instance 'U9' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/CSSTE_Pipe.v:222]
+WARNING: [Synth 8-7023] instance 'U9' of module 'SAnti_jitter' has 13 connections declared, but only 8 given [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/CSSTE_Pipe.v:222]
+INFO: [Synth 8-6157] synthesizing module 'Counter_x' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/Counter_x.v:15]
+INFO: [Synth 8-6157] synthesizing module 'VGA' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/VGA/VGA.v:23]
+INFO: [Synth 8-6157] synthesizing module 'VgaController' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/VGA/VgaController.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'VgaController' (23#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/VGA/VgaController.v:1]
+INFO: [Synth 8-6157] synthesizing module 'VgaDisplay' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/VGA/VgaDisplay.v:1]
+INFO: [Synth 8-3876] $readmem data file 'C://CO//vga_debugger.mem' is read successfully [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/VGA/VgaDisplay.v:15]
+INFO: [Synth 8-3876] $readmem data file 'C://CO//font_8x16.mem' is read successfully [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/VGA/VgaDisplay.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'VgaDisplay' (24#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/VGA/VgaDisplay.v:1]
+INFO: [Synth 8-6157] synthesizing module 'VgaDebugger' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/VGA/VgaDebugger.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Hex2Ascii' [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/VGA/Hex2Ascii.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Hex2Ascii' (25#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/VGA/Hex2Ascii.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'VgaDebugger' (26#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/VGA/VgaDebugger.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'VGA' (27#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/VGA/VGA.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'CSSTE_Pipe' (28#1) [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new/CSSTE_Pipe.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1118.902 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1118.902 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1118.902 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 1118.902 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/CO/Pipeline_CPU/Pipeline_CPU.gen/sources_1/ip/ROM_D_0/ROM_D_0/ROM_D_0_in_context.xdc] for cell 'U2'
+Finished Parsing XDC File [c:/CO/Pipeline_CPU/Pipeline_CPU.gen/sources_1/ip/ROM_D_0/ROM_D_0/ROM_D_0_in_context.xdc] for cell 'U2'
+Parsing XDC File [c:/CO/Pipeline_CPU/Pipeline_CPU.gen/sources_1/ip/Seg7_Dev_0/Seg7_Dev_0/Seg7_Dev_0_in_context.xdc] for cell 'U6'
+Finished Parsing XDC File [c:/CO/Pipeline_CPU/Pipeline_CPU.gen/sources_1/ip/Seg7_Dev_0/Seg7_Dev_0/Seg7_Dev_0_in_context.xdc] for cell 'U6'
+Parsing XDC File [c:/CO/Pipeline_CPU/Pipeline_CPU.gen/sources_1/ip/RAM_B/RAM_B/RAM_B_in_context.xdc] for cell 'U3'
+Finished Parsing XDC File [c:/CO/Pipeline_CPU/Pipeline_CPU.gen/sources_1/ip/RAM_B/RAM_B/RAM_B_in_context.xdc] for cell 'U3'
+Parsing XDC File [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/constrs_1/imports/new/A7_CSSTE.xdc]
+Finished Parsing XDC File [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/constrs_1/imports/new/A7_CSSTE.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/constrs_1/imports/new/A7_CSSTE.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CSSTE_Pipe_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CSSTE_Pipe_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/CO/Pipeline_CPU/Pipeline_CPU.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/CO/Pipeline_CPU/Pipeline_CPU.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1138.809 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1138.809 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1138.809 ; gain = 19.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1138.809 ; gain = 19.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U6. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U3. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1138.809 ; gain = 19.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1138.809 ; gain = 19.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 4     
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 3     
+	   2 Input    9 Bit       Adders := 1     
+	   3 Input    8 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 50    
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                5 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 19    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 19    
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	 428 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+	  17 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   9 Input    2 Bit        Muxes := 1     
+	   7 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 41    
+	   7 Input    1 Bit        Muxes := 6     
+	   9 Input    1 Bit        Muxes := 2     
+	   8 Input    1 Bit        Muxes := 1     
+	 428 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:26 . Memory (MB): peak = 1138.809 ; gain = 19.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|VgaDisplay  | p_0_out    | 4096x8        | LUT            | 
+|VGA         | p_0_out    | 4096x8        | LUT            | 
++------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+----------------------------------+-----------+----------------------+---------------+
+|Module Name | RTL Object                       | Inference | Size (Depth x Width) | Primitives    | 
++------------+----------------------------------+-----------+----------------------+---------------+
+|CSSTE_Pipe  | U11/vga_display/display_data_reg | Implied   | 4 K x 7              | RAM64M x 192  | 
++------------+----------------------------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:30 . Memory (MB): peak = 1138.809 ; gain = 19.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:30 . Memory (MB): peak = 1138.809 ; gain = 19.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------+----------------------------------+-----------+----------------------+---------------+
+|Module Name | RTL Object                       | Inference | Size (Depth x Width) | Primitives    | 
++------------+----------------------------------+-----------+----------------------+---------------+
+|CSSTE_Pipe  | U11/vga_display/display_data_reg | Implied   | 4 K x 7              | RAM64M x 192  | 
++------------+----------------------------------+-----------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:32 . Memory (MB): peak = 1148.164 ; gain = 29.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:34 . Memory (MB): peak = 1163.656 ; gain = 44.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:34 . Memory (MB): peak = 1163.656 ; gain = 44.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:34 . Memory (MB): peak = 1163.656 ; gain = 44.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:34 . Memory (MB): peak = 1163.656 ; gain = 44.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:34 . Memory (MB): peak = 1163.656 ; gain = 44.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:34 . Memory (MB): peak = 1163.656 ; gain = 44.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |ROM_D_0       |         1|
+|2     |RAM_B         |         1|
+|3     |MIO_BUS       |         1|
+|4     |Multi_8CH32   |         1|
+|5     |Seg7_Dev_0    |         1|
+|6     |SPIO          |         1|
+|7     |clk_div       |         1|
+|8     |SAnti_jitter  |         1|
+|9     |Counter_x     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------------+------+
+|      |Cell              |Count |
++------+------------------+------+
+|1     |Counter_x_bbox    |     1|
+|2     |MIO_BUS_bbox      |     1|
+|3     |Multi_8CH32_bbox  |     1|
+|4     |RAM_B             |     1|
+|5     |ROM_D             |     1|
+|6     |SAnti_jitter_bbox |     1|
+|7     |SPIO_bbox         |     1|
+|8     |Seg7_Dev          |     1|
+|9     |clk_div_bbox      |     1|
+|10    |BUFG              |     2|
+|11    |CARRY4            |    55|
+|12    |LUT1              |     8|
+|13    |LUT2              |   338|
+|14    |LUT3              |   112|
+|15    |LUT4              |   336|
+|16    |LUT5              |   419|
+|17    |LUT6              |  1955|
+|18    |MUXF7             |   622|
+|19    |MUXF8             |   197|
+|20    |RAM64M            |   128|
+|21    |RAM64X1D          |    62|
+|22    |FDCE              |  1490|
+|23    |FDPE              |     1|
+|24    |FDRE              |    45|
+|25    |FDSE              |     2|
+|26    |IBUF              |    22|
+|27    |OBUF              |    30|
+|28    |OBUFT             |    16|
++------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:34 . Memory (MB): peak = 1163.656 ; gain = 44.754
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:32 . Memory (MB): peak = 1163.656 ; gain = 24.848
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:34 . Memory (MB): peak = 1163.656 ; gain = 44.754
+INFO: [Project 1-571] Translating synthesized netlist
+Parsing EDIF File [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/MIO_BUS.edf]
+Finished Parsing EDIF File [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/MIO_BUS.edf]
+Parsing EDIF File [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/Multi_8CH32.edf]
+Finished Parsing EDIF File [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/Multi_8CH32.edf]
+Parsing EDIF File [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/SPIO.edf]
+Finished Parsing EDIF File [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/SPIO.edf]
+Parsing EDIF File [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/clk_div.edf]
+Finished Parsing EDIF File [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/clk_div.edf]
+Parsing EDIF File [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/SAnti_jitter.edf]
+Finished Parsing EDIF File [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/SAnti_jitter.edf]
+Parsing EDIF File [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/Counter_x.edf]
+Finished Parsing EDIF File [C:/CO/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/imports/IP/Counter_x.edf]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 1185.516 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1162 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1189.379 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 190 instances were transformed.
+  RAM64M => RAM64M (RAMD64E(x4)): 128 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 62 instances
+
+Synth Design complete, checksum: 76c0a6ce
+INFO: [Common 17-83] Releasing license: Synthesis
+83 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:46 . Memory (MB): peak = 1189.379 ; gain = 70.477
+INFO: [Common 17-1381] The checkpoint 'C:/CO/Pipeline_CPU/Pipeline_CPU.runs/synth_1/CSSTE_Pipe.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file CSSTE_Pipe_utilization_synth.rpt -pb CSSTE_Pipe_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 16 14:54:34 2024...

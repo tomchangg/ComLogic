@@ -1,0 +1,299 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Sep 22 23:38:28 2024
+# Process ID: 19136
+# Current directory: D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.runs/synth_1
+# Command line: vivado.exe -log CSSTE.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CSSTE.tcl
+# Log file: D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.runs/synth_1/CSSTE.vds
+# Journal file: D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.runs/synth_1\vivado.jou
+# Running On: TomChang, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 34070 MB
+#-----------------------------------------------------------
+source CSSTE.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 485.141 ; gain = 179.848
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/NewwwwwW/ComputerOrg/lab02/OExp02-IP2SOC/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2023.2/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/utils_1/imports/synth_1/CSSTE.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/utils_1/imports/synth_1/CSSTE.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top CSSTE -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16256
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:17 . Memory (MB): peak = 1346.535 ; gain = 440.180
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'GPIOf0000000_w', assumed default net type 'wire' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:92]
+INFO: [Synth 8-6157] synthesizing module 'CSSTE' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'SCPU' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/SCPU.v:15]
+WARNING: [Synth 8-7071] port 'CPU_MIO' of module 'SCPU' is unconnected for instance 'U1' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:47]
+WARNING: [Synth 8-7023] instance 'U1' of module 'SCPU' has 10 connections declared, but only 9 given [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:47]
+INFO: [Synth 8-6157] synthesizing module 'Rom_D_0' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.runs/synth_1/.Xil/Vivado-19136-TomChang/realtime/Rom_D_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Rom_D_0' (0#1) [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.runs/synth_1/.Xil/Vivado-19136-TomChang/realtime/Rom_D_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'RAM_B' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/RAM_B.v:15]
+INFO: [Synth 8-6157] synthesizing module 'MIO_BUS' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/MIO_BUS.v:15]
+INFO: [Synth 8-6157] synthesizing module 'Multi_8CH32' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Multi_8CH32.v:15]
+INFO: [Synth 8-6157] synthesizing module 'Seg7_Dev_0' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.runs/synth_1/.Xil/Vivado-19136-TomChang/realtime/Seg7_Dev_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg7_Dev_0' (0#1) [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.runs/synth_1/.Xil/Vivado-19136-TomChang/realtime/Seg7_Dev_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'SPIO' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/SPIO.v:15]
+WARNING: [Synth 8-7071] port 'led_clk' of module 'SPIO' is unconnected for instance 'U7' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:131]
+WARNING: [Synth 8-7071] port 'led_sout' of module 'SPIO' is unconnected for instance 'U7' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:131]
+WARNING: [Synth 8-7071] port 'led_clrn' of module 'SPIO' is unconnected for instance 'U7' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:131]
+WARNING: [Synth 8-7071] port 'LED_PEN' of module 'SPIO' is unconnected for instance 'U7' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:131]
+WARNING: [Synth 8-7071] port 'GPIOf0' of module 'SPIO' is unconnected for instance 'U7' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:131]
+WARNING: [Synth 8-7023] instance 'U7' of module 'SPIO' has 12 connections declared, but only 7 given [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:131]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/clk_div.v:15]
+INFO: [Synth 8-6157] synthesizing module 'SAnti_jitter' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/SAnti_jitter.v:15]
+WARNING: [Synth 8-7071] port 'readn' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:151]
+WARNING: [Synth 8-7071] port 'Key_x' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:151]
+WARNING: [Synth 8-7071] port 'Key_out' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:151]
+WARNING: [Synth 8-7071] port 'Key_ready' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:151]
+WARNING: [Synth 8-7071] port 'pulse_out' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:151]
+WARNING: [Synth 8-7071] port 'CR' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:151]
+WARNING: [Synth 8-7023] instance 'U9' of module 'SAnti_jitter' has 13 connections declared, but only 7 given [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:151]
+INFO: [Synth 8-6157] synthesizing module 'Counter_x' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Counter_x.v:15]
+INFO: [Synth 8-6157] synthesizing module 'VGA' [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/VGA.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'CSSTE' (0#1) [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:3]
+WARNING: [Synth 8-3848] Net GPIOf0000000_we in module/entity CSSTE does not have driver. [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.srcs/sources_1/new/CSSTE.v:34]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:23 . Memory (MB): peak = 1453.281 ; gain = 546.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:24 . Memory (MB): peak = 1453.281 ; gain = 546.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:24 . Memory (MB): peak = 1453.281 ; gain = 546.926
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1453.281 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.gen/sources_1/ip/Seg7_Dev_0/Seg7_Dev_0/Seg7_Dev_0_in_context.xdc] for cell 'U6'
+Finished Parsing XDC File [d:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.gen/sources_1/ip/Seg7_Dev_0/Seg7_Dev_0/Seg7_Dev_0_in_context.xdc] for cell 'U6'
+Parsing XDC File [d:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.gen/sources_1/ip/Rom_D_0/Rom_D_0/Rom_D_0_in_context.xdc] for cell 'U2'
+Finished Parsing XDC File [d:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.gen/sources_1/ip/Rom_D_0/Rom_D_0/Rom_D_0_in_context.xdc] for cell 'U2'
+Parsing XDC File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/A7.xdc]
+Finished Parsing XDC File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/A7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/A7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CSSTE_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CSSTE_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1477.062 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1477.062 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:41 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:41 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U6. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U2. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:41 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:41 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:46 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:58 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:58 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:58 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module U7 has unconnected pin EN
+CRITICAL WARNING: [Synth 8-4442] BlackBox module U9 has unconnected pin readn
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |SCPU          |         1|
+|2     |Rom_D_0       |         1|
+|3     |RAM_B         |         1|
+|4     |MIO_BUS       |         1|
+|5     |Multi_8CH32   |         1|
+|6     |Seg7_Dev_0    |         1|
+|7     |SPIO          |         1|
+|8     |clk_div       |         1|
+|9     |SAnti_jitter  |         1|
+|10    |Counter_x     |         1|
+|11    |VGA           |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------------+------+
+|      |Cell              |Count |
++------+------------------+------+
+|1     |Counter_x_bbox    |     1|
+|2     |MIO_BUS_bbox      |     1|
+|3     |Multi_8CH32_bbox  |     1|
+|4     |RAM_B_bbox        |     1|
+|5     |Rom_D             |     1|
+|6     |SAnti_jitter_bbox |     1|
+|7     |SCPU_bbox         |     1|
+|8     |SPIO_bbox         |     1|
+|9     |Seg7_Dev          |     1|
+|10    |VGA_bbox          |     1|
+|11    |clk_div_bbox      |     1|
+|12    |LUT1              |     2|
+|13    |IBUF              |    22|
+|14    |OBUF              |    46|
++------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.062 ; gain = 570.707
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 2 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:01:05 . Memory (MB): peak = 1477.062 ; gain = 546.926
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.062 ; gain = 570.707
+INFO: [Project 1-571] Translating synthesized netlist
+Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/SCPU.edf]
+Finished Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/SCPU.edf]
+Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/RAM_B.edf]
+Finished Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/RAM_B.edf]
+Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/MIO_BUS.edf]
+Finished Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/MIO_BUS.edf]
+Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Multi_8CH32.edf]
+Finished Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Multi_8CH32.edf]
+Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/SPIO.edf]
+Finished Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/SPIO.edf]
+Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/clk_div.edf]
+Finished Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/clk_div.edf]
+Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/SAnti_jitter.edf]
+Finished Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/SAnti_jitter.edf]
+Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Counter_x.edf]
+Finished Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Counter_x.edf]
+Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/VGA.edf]
+Finished Parsing EDIF File [D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/VGA.edf]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 1482.387 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1067 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 2 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1490.031 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 256 instances were transformed.
+  RAM64M => RAM64M (RAMD64E(x4)): 128 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 128 instances
+
+Synth Design complete | Checksum: d343ded7
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 17 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:01:19 . Memory (MB): peak = 1490.031 ; gain = 992.816
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1490.031 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/NewwwwwW/ComputerOrg/lab02/Lab02-IP2SOC/Lab02-IP2SOC.runs/synth_1/CSSTE.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file CSSTE_utilization_synth.rpt -pb CSSTE_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Sep 22 23:40:00 2024...

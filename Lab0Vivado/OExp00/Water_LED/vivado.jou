@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Sep 20 09:16:18 2024
+# Process ID: 19548
+# Current directory: D:/NewwwwwW/ComputerOrg/Lab0Vivado/OExp00/Water_LED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29916 D:\NewwwwwW\ComputerOrg\Lab0Vivado\OExp00\Water_LED\Water_LED.xpr
+# Log file: D:/NewwwwwW/ComputerOrg/Lab0Vivado/OExp00/Water_LED/vivado.log
+# Journal file: D:/NewwwwwW/ComputerOrg/Lab0Vivado/OExp00/Water_LED\vivado.jou
+# Running On: TomChang, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 34070 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/NewwwwwW/ComputerOrg/Lab0Vivado/OExp00/Water_LED/Water_LED.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source Water_LED_tb.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim
+launch_simulation
+source Water_LED_tb.tcl
+run 10 ms
+run 10 ms
+run 10 ms
+run 10 s
+close_sim
+launch_simulation
+source Water_LED_tb.tcl
+close_sim

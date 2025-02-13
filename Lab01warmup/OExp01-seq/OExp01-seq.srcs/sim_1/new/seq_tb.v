@@ -1,0 +1,47 @@
+`timescale 1ns / 1ps
+
+module seq_tb();
+     reg clk;
+	 reg reset;
+	 reg in;
+	 wire out;
+	 
+    always #20 clk = ~clk;
+    
+    initial
+        begin
+            clk = 0;
+            reset = 0;
+            #20 reset = 1;
+        end
+
+    initial
+        begin
+            in = 0;
+            #30
+            in = 1;
+            #40
+            in = 1;
+            #40
+            in = 1;
+            #40
+            in = 0;
+            #40
+            in = 0;
+            #40
+            in = 1;
+            #40
+            in = 0;
+            #40
+            in = 1;
+            #40
+            $finish;
+            end
+		
+    seq uut(
+        .clk(clk),
+        .reset(reset),
+        .in(in),
+        .out(out)
+        );
+endmodule

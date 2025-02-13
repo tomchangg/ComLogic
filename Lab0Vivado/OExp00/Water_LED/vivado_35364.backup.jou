@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Sep 11 19:07:33 2024
+# Process ID: 35364
+# Current directory: D:/NewwwwwW/ComputerOrg/Lab0 Vivado介绍和模块封装/Lab0 Vivado介绍和模块封装/OExp00/Water_LED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1252 D:\NewwwwwW\ComputerOrg\Lab0 Vivado介绍和模块封装\Lab0 Vivado介绍和模块封装\OExp00\Water_LED\Water_LED.xpr
+# Log file: D:/NewwwwwW/ComputerOrg/Lab0 Vivado介绍和模块封装/Lab0 Vivado介绍和模块封装/OExp00/Water_LED/vivado.log
+# Journal file: D:/NewwwwwW/ComputerOrg/Lab0 Vivado介绍和模块封装/Lab0 Vivado介绍和模块封装/OExp00/Water_LED\vivado.jou
+# Running On: TomChang, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 34070 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/NewwwwwW/ComputerOrg/Lab0 Vivado介绍和模块封装/Lab0 Vivado介绍和模块封装/OExp00/Water_LED/Water_LED.xpr}
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1
+reorder_files -fileset constrs_1 -before {D:/NewwwwwW/ComputerOrg/Lab0 Vivado介绍和模块封装/Lab0 Vivado介绍和模块封装/OExp00/Water_LED/Water_LED.srcs/constrs_1/new/Water_LED.xdc} {{D:/NewwwwwW/ComputerOrg/Lab0 Vivado介绍和模块封装/Lab0 Vivado介绍和模块封装/OExp00/Water_LED/Water_LED.srcs/constrs_1/new/Water_LED.xdc}}

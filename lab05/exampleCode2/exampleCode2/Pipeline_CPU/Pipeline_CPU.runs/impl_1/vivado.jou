@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Jun 16 14:54:41 2024
+# Process ID: 4240
+# Current directory: C:/CO/Pipeline_CPU/Pipeline_CPU.runs/impl_1
+# Command line: vivado.exe -log CSSTE_Pipe.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source CSSTE_Pipe.tcl -notrace
+# Log file: C:/CO/Pipeline_CPU/Pipeline_CPU.runs/impl_1/CSSTE_Pipe.vdi
+# Journal file: C:/CO/Pipeline_CPU/Pipeline_CPU.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source CSSTE_Pipe.tcl -notrace

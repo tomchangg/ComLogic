@@ -1,0 +1,17 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/ADC32.v,1726312033,verilog,,D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/OExp01-ALU.srcs/sources_1/new/ALU.v,,ADC32,,,,,,,,
+D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/MUX8T1_32.v,1726232413,verilog,,D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/SignalExt_32.v,,MUX8T1_32,,,,,,,,
+D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/OExp01-ALU.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/OExp01-ALU.srcs/sim_1/new/ALU_tb.v,1727701463,verilog,,,,ALU_tb,,,,,,,,
+D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/OExp01-ALU.srcs/sources_1/new/ALU.v,1726312713,verilog,,D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/MUX8T1_32.v,,ALU,,,,,,,,
+D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/OExp01-ALU.srcs/sources_1/new/ALU_2.v,1727624479,verilog,,D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/OExp01-ALU.srcs/sim_1/new/ALU_tb.v,,ALU_2,,,,,,,,
+D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/SignalExt_32.v,1726236706,verilog,,D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/and32.v,,SignalExt_32,,,,,,,,
+D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/and32.v,1726234787,verilog,,D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/nor32.v,,and32,,,,,,,,
+D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/nor32.v,1726235067,verilog,,D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/or32.v,,nor32,,,,,,,,
+D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/or32.v,1726235030,verilog,,D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/or_bit_32.v,,or32,,,,,,,,
+D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/or_bit_32.v,1726236534,verilog,,D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/srl32.v,,or_bit_32,,,,,,,,
+D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/srl32.v,1726235963,verilog,,D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/xor32.v,,srl32,,,,,,,,
+D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/xor32.v,1726235112,verilog,,D:/NewwwwwW/ComputerOrg/Lab01warmup/OExp01-ALU/OExp01-ALU.srcs/sim_1/new/ALU_tb.v,,xor32,,,,,,,,

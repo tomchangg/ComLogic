@@ -1,0 +1,27 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/EX/ALU_more.v,1732099340,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/CPU_test.v,,ALU_more,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/ID/ImmGen.v,1733839541,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/IF/MUX2T1_32.v,,ImmGen,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/ID/SCPU_ctrl.v,1730881898,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/IF/add_32.v,,SCPU_ctrl_more,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/ID/regs.v,1733834852,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sim_1/new/CPUtest.v,,regs,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/IF/MUX2T1_32.v,1728367384,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/WB/MUX4T1_32.v,,MUX2T1_32,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/IF/REG32.v,1728383680,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/ID/SCPU_ctrl.v,,REG32,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/IF/add_32.v,1729077594,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/ID/regs.v,,add_32,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/PipelineCPU.v,1733834913,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_Ex.v,,PipelineCPU,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/WB/MUX4T1_32.v,1728472932,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Mem_reg_WB.v,,MUX4T1_32,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.gen/sources_1/ip/RAM/sim/RAM.v,1733830483,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.gen/sources_1/ip/Rom_D_0/sim/Rom_D_0.v,,RAM,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.gen/sources_1/ip/Rom_D_0/sim/Rom_D_0.v,1732710000,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/EX/ALU_more.v,,Rom_D_0,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sim_1/new/CPUtest.v,1733830662,verilog,,,,CPUtest,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/CPU_test.v,1733830506,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Ex_reg_Mem.v,,CPU_test,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Ex_reg_Mem.v,1733820037,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/ID_reg_EX.v,,Ex_reg_Mem,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/ID_reg_EX.v,1733132622,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/IF_reg_ID.v,,ID_reg_Ex,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/IF_reg_ID.v,1733130408,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/ID/ImmGen.v,,IF_reg_ID,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Mem_reg_WB.v,1733820747,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/PipelineCPU.v,,Mem_reg_WB,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_Ex.v,1733837983,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_ID.v,,Pipeline_Ex,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_ID.v,1733834850,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_IF.v,,Pipeline_ID,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_IF.v,1733129706,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_Mem.v,,Pipeline_IF,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_Mem.v,1733820368,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_WB.v,,Pipeline_Mem,,,,,,,,
+D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/finalwork.srcs/sources_1/new/Pipeline_WB.v,1733823507,verilog,,D:/ZJU/2.1/Computer Organization/lab/lab5/work/3/finalwork/IF/REG32.v,,Pipeline_WB,,,,,,,,

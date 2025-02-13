@@ -1,0 +1,44 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab02-IP2SOC-pipeline-normal/Lab02-IP2SOC.gen/sources_1/ip/RAM_B/sim/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab02-IP2SOC-pipeline-normal/Lab02-IP2SOC.gen/sources_1/ip/Rom_D_0/sim/Rom_D_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rom_D_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab02-IP2SOC-pipeline-normal/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab02-IP2SOC-pipeline-normal/Lab02-IP2SOC.srcs/sources_1/new/CPU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Pipeline-normal/Pipeline-normal.srcs/sources_1/new/Ex_reg_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ex_reg_Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Pipeline-normal/Pipeline-normal.srcs/sources_1/new/ID_reg_Ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_reg_Ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Pipeline-normal/Pipeline-normal.srcs/sources_1/new/IF_reg_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_reg_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab02-IP2SOC-pipeline-normal/ImmGen_more.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen_more
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Pipeline-normal/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Pipeline-normal/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Pipeline-normal/Pipeline-normal.srcs/sources_1/new/Mem_reg_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mem_reg_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab05-PipelineCPU/Lab05-PipelineCPU.srcs/sources_1/new/PipelineCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PipelineCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Pipeline-normal/Pipeline-normal.srcs/sources_1/new/Pipeline_Ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_Ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Pipeline-normal/Pipeline-normal.srcs/sources_1/new/Pipeline_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Pipeline-normal/Pipeline-normal.srcs/sources_1/new/Pipeline_IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Pipeline-normal/Pipeline-normal.srcs/sources_1/new/Pipeline_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Pipeline-normal/Pipeline-normal.srcs/sources_1/new/Pipeline_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Pipeline-normal/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Pipeline-normal/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab02-IP2SOC-pipeline-normal/SCPU_ctrl_more.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl_more
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Pipeline-normal/add32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NewwwwwW/ComputerOrg/lab05/Lab05Student/Lab02-IP2SOC-pipeline-normal/Lab02-IP2SOC.srcs/sim_1/new/CPUtest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPUtest

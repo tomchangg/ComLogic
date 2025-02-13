@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Jun  4 22:11:25 2024
+# Process ID: 36752
+# Current directory: C:/CO/Pipeline_CPU/Pipeline_CPU.runs/Seg7_Dev_0_synth_1
+# Command line: vivado.exe -log Seg7_Dev_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Seg7_Dev_0.tcl
+# Log file: C:/CO/Pipeline_CPU/Pipeline_CPU.runs/Seg7_Dev_0_synth_1/Seg7_Dev_0.vds
+# Journal file: C:/CO/Pipeline_CPU/Pipeline_CPU.runs/Seg7_Dev_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Seg7_Dev_0.tcl -notrace

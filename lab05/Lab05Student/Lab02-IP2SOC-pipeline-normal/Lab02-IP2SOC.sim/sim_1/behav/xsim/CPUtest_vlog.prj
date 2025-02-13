@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab02-IP2SOC.gen/sources_1/ip/RAM_B/sim/RAM_B.v" \
+"../../../../Lab02-IP2SOC.gen/sources_1/ip/Rom_D_0/sim/Rom_D_0.v" \
+"../../../../ALU.v" \
+"../../../../Lab02-IP2SOC.srcs/sources_1/new/CPU_test.v" \
+"../../../../../Pipeline-normal/Pipeline-normal.srcs/sources_1/new/Ex_reg_Mem.v" \
+"../../../../../Pipeline-normal/Pipeline-normal.srcs/sources_1/new/ID_reg_Ex.v" \
+"../../../../../Pipeline-normal/Pipeline-normal.srcs/sources_1/new/IF_reg_ID.v" \
+"../../../../ImmGen_more.v" \
+"../../../../../Pipeline-normal/MUX2T1_32.v" \
+"../../../../../Pipeline-normal/MUX4T1_32.v" \
+"../../../../../Pipeline-normal/Pipeline-normal.srcs/sources_1/new/Mem_reg_WB.v" \
+"../../../../../Lab05-PipelineCPU/Lab05-PipelineCPU.srcs/sources_1/new/PipelineCPU.v" \
+"../../../../../Pipeline-normal/Pipeline-normal.srcs/sources_1/new/Pipeline_Ex.v" \
+"../../../../../Pipeline-normal/Pipeline-normal.srcs/sources_1/new/Pipeline_ID.v" \
+"../../../../../Pipeline-normal/Pipeline-normal.srcs/sources_1/new/Pipeline_IF.v" \
+"../../../../../Pipeline-normal/Pipeline-normal.srcs/sources_1/new/Pipeline_Mem.v" \
+"../../../../../Pipeline-normal/Pipeline-normal.srcs/sources_1/new/Pipeline_WB.v" \
+"../../../../../Pipeline-normal/REG32.v" \
+"../../../../../Pipeline-normal/Regs.v" \
+"../../../../SCPU_ctrl_more.v" \
+"../../../../../Pipeline-normal/add32.v" \
+"../../../../Lab02-IP2SOC.srcs/sim_1/new/CPUtest.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

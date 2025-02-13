@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../finalwork.gen/sources_1/ip/RAM/sim/RAM.v" \
+"../../../../finalwork.gen/sources_1/ip/Rom_D_0/sim/Rom_D_0.v" \
+"../../../../EX/ALU_more.v" \
+"../../../../finalwork.srcs/sources_1/new/CPU_test.v" \
+"../../../../finalwork.srcs/sources_1/new/Ex_reg_Mem.v" \
+"../../../../finalwork.srcs/sources_1/new/ID_reg_EX.v" \
+"../../../../finalwork.srcs/sources_1/new/IF_reg_ID.v" \
+"../../../../ID/ImmGen.v" \
+"../../../../IF/MUX2T1_32.v" \
+"../../../../WB/MUX4T1_32.v" \
+"../../../../finalwork.srcs/sources_1/new/Mem_reg_WB.v" \
+"../../../../PipelineCPU.v" \
+"../../../../finalwork.srcs/sources_1/new/Pipeline_Ex.v" \
+"../../../../finalwork.srcs/sources_1/new/Pipeline_ID.v" \
+"../../../../finalwork.srcs/sources_1/new/Pipeline_IF.v" \
+"../../../../finalwork.srcs/sources_1/new/Pipeline_Mem.v" \
+"../../../../finalwork.srcs/sources_1/new/Pipeline_WB.v" \
+"../../../../IF/REG32.v" \
+"../../../../ID/SCPU_ctrl.v" \
+"../../../../IF/add_32.v" \
+"../../../../ID/regs.v" \
+"../../../../finalwork.srcs/sim_1/new/CPUtest.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
